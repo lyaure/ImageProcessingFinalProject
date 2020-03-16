@@ -5,7 +5,7 @@ from matplotlib import pyplot as plt
 
 def hough_circles(image):
     cimg = image.copy()
-    circles = cv2.HoughCircles(img, cv2.HOUGH_GRADIENT, 1, 20, param1=20, param2=55, minRadius=15, maxRadius=49)
+    circles = cv2.HoughCircles(cimg, cv2.HOUGH_GRADIENT, 1, 20, param1=20, param2=55, minRadius=15, maxRadius=49)
 
     if circles is not None:
         circles = np.uint16(np.around(circles))
