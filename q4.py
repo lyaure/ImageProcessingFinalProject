@@ -12,7 +12,7 @@ def hough_circles(original, maxRaduis):
 def draw_circle(circles, image):
     if circles is not None:
         circles = np.uint16(np.around(circles))
-        
+
         for i in circles[0, :]:
             # draw the outer circle
             cv2.circle(image, (i[0], i[1]), i[2], (0, 255, 0), 2)
