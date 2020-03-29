@@ -14,25 +14,24 @@ if __name__ == "__main__":
     for img in glob.glob("Database/*.png"):
         database.append(cv2.imread(img, 0))
 
-    orb = cv2.ORB_create()
-
-    kp = []
-    des = []
-    matches_array = []
-    matches_len = []
+    sift = cv2.xfeatures2d.SIFT_create()
 
     for i in range(len(query_pics)):
-        kp1, des1 = orb.detectAndCompute(query_pics[i], None)
+        matches_array = []
+        matches_len = []
+
+        kp1, des1 = sift.detectAndCompute(query_pics[i], None)
 
         for j in range(len(database)):
-            kp2, des2 = orb.detectAndCompute(database[j], None)
-            bf = cv2.BFMatcher(cv2.NORM_HAMMING, crossCheck=True)
+            kp2, des2 = sift.detectAndCompute(database[j], None)
+            bf = cv2.BFMatcher()
             matches = bf.match(des1, des2)
             matches = sorted(matches, key=lambda x: x.distance)
             matches_len.append(matches[0].distance)
             matches_array.append(matches)
 
         index = matches_len.index(min(matches_len))
+        print(index)
         image_found = database[index]
 
         arr = matches_array[index]

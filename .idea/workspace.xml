@@ -34,7 +34,7 @@
       <recent name="C:\Users\Lyaure\PycharmProjects\ImageProcessingFinalProject" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.q1">
+  <component name="RunManager" selected="Python.q4">
     <configuration name="ex8" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ImageProcessingFinalProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -48,27 +48,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/targuilKita/ex8.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="q1-old" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ImageProcessingFinalProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/q1-old.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -119,6 +98,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="q3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ImageProcessingFinalProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/q3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="q4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ImageProcessingFinalProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -142,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.q4" />
+        <item itemvalue="Python.q3" />
+        <item itemvalue="Python.q2" />
         <item itemvalue="Python.q1" />
         <item itemvalue="Python.ex8" />
-        <item itemvalue="Python.q1-old" />
-        <item itemvalue="Python.q2" />
-        <item itemvalue="Python.q4" />
       </list>
     </recent_temporary>
   </component>
@@ -164,26 +164,26 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1515" height="173" key="GridCell.Tab.0.bottom" timestamp="1585187727541">
+    <state width="1515" height="173" key="GridCell.Tab.0.bottom" timestamp="1585425218158">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="173" key="GridCell.Tab.0.bottom/0.0.1536.824/3840.0.1280.984@0.0.1536.824" timestamp="1585187727541" />
-    <state width="1515" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585169394084" />
-    <state width="1515" height="173" key="GridCell.Tab.0.center" timestamp="1585187727541">
+    <state width="1515" height="173" key="GridCell.Tab.0.bottom/0.0.1536.824/3840.0.1280.984@0.0.1536.824" timestamp="1585425218158" />
+    <state width="1515" height="173" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585418981649" />
+    <state width="1515" height="173" key="GridCell.Tab.0.center" timestamp="1585425218158">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="173" key="GridCell.Tab.0.center/0.0.1536.824/3840.0.1280.984@0.0.1536.824" timestamp="1585187727541" />
-    <state width="1515" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585169394084" />
-    <state width="1515" height="173" key="GridCell.Tab.0.left" timestamp="1585187727541">
+    <state width="1515" height="173" key="GridCell.Tab.0.center/0.0.1536.824/3840.0.1280.984@0.0.1536.824" timestamp="1585425218158" />
+    <state width="1515" height="173" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585418981649" />
+    <state width="1515" height="173" key="GridCell.Tab.0.left" timestamp="1585425218158">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="173" key="GridCell.Tab.0.left/0.0.1536.824/3840.0.1280.984@0.0.1536.824" timestamp="1585187727541" />
-    <state width="1515" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585169394084" />
-    <state width="1515" height="173" key="GridCell.Tab.0.right" timestamp="1585187727541">
+    <state width="1515" height="173" key="GridCell.Tab.0.left/0.0.1536.824/3840.0.1280.984@0.0.1536.824" timestamp="1585425218158" />
+    <state width="1515" height="173" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585418981649" />
+    <state width="1515" height="173" key="GridCell.Tab.0.right" timestamp="1585425218158">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="173" key="GridCell.Tab.0.right/0.0.1536.824/3840.0.1280.984@0.0.1536.824" timestamp="1585187727541" />
-    <state width="1515" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585169394084" />
+    <state width="1515" height="173" key="GridCell.Tab.0.right/0.0.1536.824/3840.0.1280.984@0.0.1536.824" timestamp="1585425218158" />
+    <state width="1515" height="173" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585418981649" />
     <state width="1515" height="262" key="GridCell.Tab.1.bottom" timestamp="1585167860689">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
